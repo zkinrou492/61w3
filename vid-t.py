@@ -20,7 +20,7 @@ METADATA_UPDATED_FILE = "metadata_updated.txt"
 UPLOADED_FILES_FILE = "uploaded_files.txt"
 
 # Runtime limit in seconds (5 hours = 5 * 60 * 60, 40 minutes = 40 * 60)
-RUNTIME_LIMIT = 18000 # 5 hours and 40 minutes
+RUNTIME_LIMIT = 9000 # 5 hours and 40 minutes
 
 def authenticate_google_drive():
     """Authenticate and get credentials for Google Drive API."""
